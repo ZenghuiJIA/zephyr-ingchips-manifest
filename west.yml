@@ -1,0 +1,26 @@
+manifest:
+  version: "1.2"
+
+  remotes:
+    - name: ingchips
+      url-base: https://github.com/ingchips
+
+  projects:
+    - name: zephyr
+      remote: ingchips
+      repo-path: zephyr
+      revision: dev_ingchips_240317
+      path: zephyr
+      import:
+        name-allowlist:
+          - cmsis
+
+    - name: hal_ingchips
+      remote: ingchips
+      repo-path: ING918XX_SDK_SOURCE
+      revision: 77ab4f8f484b0b3d329d0f2614d500dc3b0d97c3
+      path: modules/hal/ingchips
+      clone-depth: 1
+
+  self:
+    path: manifest
