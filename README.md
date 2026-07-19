@@ -14,5 +14,5 @@ The SDK is checked out at `modules/hal/ingchips`. Its revision is pinned so
 that builds do not change when the SDK default branch advances.
 
 The initial compatibility baseline uses the Zephyr branch
-`dev_ingchips_240317`. The manifest imports only CMSIS from that branch and
+`dev_ingchips_west_test`. The manifest imports only CMSIS from that branch and
 does not fetch Nordic or other vendor HAL repositories.

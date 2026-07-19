@@ -9,7 +9,7 @@ manifest:
     - name: zephyr
       remote: ingchips
       repo-path: zephyr
-      revision: dev_ingchips_240317
+      revision: dev_ingchips_west_test
       path: zephyr
       import:
         name-allowlist:
