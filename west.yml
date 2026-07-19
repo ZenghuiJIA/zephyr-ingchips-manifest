@@ -18,7 +18,7 @@ manifest:
     - name: hal_ingchips
       remote: ingchips
       repo-path: ING918XX_SDK_SOURCE
-      revision: 77ab4f8f484b0b3d329d0f2614d500dc3b0d97c3
+      revision: v9.1.1
       path: modules/hal/ingchips
       clone-depth: 1
 
