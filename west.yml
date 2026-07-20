@@ -4,12 +4,14 @@ manifest:
   remotes:
     - name: ingchips
       url-base: https://github.com/ingchips
+    - name: zenghui
+      url-base: git@github.com:ZenghuiJIA
 
   projects:
     - name: zephyr
-      remote: ingchips
+      remote: zenghui
       repo-path: zephyr
-      revision: dev_ingchips_west_test
+      revision: dev_ingchips_mainline
       path: zephyr
       import:
         name-allowlist:
