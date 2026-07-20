@@ -16,6 +16,7 @@ manifest:
       import:
         name-allowlist:
           - cmsis
+          - cmsis_6
 
     - name: hal_ingchips
       remote: ingchips
